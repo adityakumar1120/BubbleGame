@@ -63,7 +63,6 @@ html,body{
     width: 100%;
     height: calc(100% - 100px);
     padding: 10px 20px;
-    cursor: pointer;
 }
 
 .bubble{
@@ -116,6 +115,7 @@ html,body{
     }
     #panelbottpm{
         padding: 0 0;
+        
     }
     .margin{
         width: 100%;
