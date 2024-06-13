@@ -88,6 +88,27 @@ html,body{
     margin: auto;
 }
 
+.time-operator{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.arrow{
+    color: black;
+    font-size: 23px;
+    background: white;
+}
+
+#increase{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#decrease{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
 @media (max-width:1000px) {
     #panel{
         width: 100%;

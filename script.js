@@ -22,6 +22,36 @@ for (var i = 1; i <= 152; i++) {
     
 }
 
+document.querySelector("#increase").addEventListener(
+    'click', function(){
+        // timer += 0
+        timer += 60
+        document.querySelector("#increase").style.backgroundColor = 'black'
+        document.querySelector("#increase").style.color = 'white'
+        }
+)
+
+document.querySelector("#increase").addEventListener('mouseleave',
+    function(){
+        document.querySelector("#increase").style.backgroundColor = 'white'
+        document.querySelector("#increase").style.color = 'black'
+    }
+)
+document.querySelector("#decrease").addEventListener(
+    'click', function(){
+        // timer += 0
+        timer -= 60
+         document.querySelector("#decrease").style.backgroundColor = 'black'
+        document.querySelector("#decrease").style.color = 'white'
+        }
+)
+document.querySelector("#decrease").addEventListener('mouseleave',
+    function(){
+        document.querySelector("#decrease").style.backgroundColor = 'white'
+        document.querySelector("#decrease").style.color = 'black'
+    }
+)
+
 function runTimer(){
     var timerint = setInterval(function(){
         if(timer>0){
